@@ -8,6 +8,7 @@ class PostuleForWorkApplicationTests {
 
     @Test
     void contextLoads() {
+        //test
     }
 
 }
