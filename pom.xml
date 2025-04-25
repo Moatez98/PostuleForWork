@@ -62,6 +62,7 @@
     </dependencies>
 
     <build>
+        <finalName>postuleforwork</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -95,10 +96,19 @@
                 <includes>
                     <include>**/*.properties</include>
                     <include>**/*.xml</include>
-                    <include>static/**</include>
-                    <include>templates/**</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>**/*.pdf</include>
+                    <include>**/*.png</include>
+                    <include>**/*.jpg</include>
+                    <include>**/*.jpeg</include>
                 </includes>
             </resource>
         </resources>
+
     </build>
 </project>
