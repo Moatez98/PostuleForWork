@@ -98,9 +98,6 @@
                     <include>static/**</include>
                     <include>templates/**</include>
                 </includes>
-                <excludes>
-                    <exclude>static/pdf/**/*.pdf</exclude> <!-- Exclure les fichiers PDF -->
-                </excludes>
             </resource>
         </resources>
     </build>
